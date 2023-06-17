@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Rubik:wght@400;500&display=swap');
+/*PAGINA GENERAL*/
+/* Sobrescribe el estilo por defecto y establece el padding y el margen a cero */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+  }
+
+/* Texto color blanco y con tipografia determinada en todas partes */
+body {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+  }
+
+/* Hacer todo el texto de los links negro y sin decoración*/  
+a {
+    color: black;
+    text-decoration: none;
+  }
+
+.image2{
+  width: 300px ;
+  height: 120px;
+}
+
+.image3{
+  width: 180px;
+  height: 120px;
+
+}
+
+/*--------------------------------------------------------------------*/
+
+.logo{
+  width: 150px;
+  height: 60px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
+    color: black;
+  }
+
+/*--------------------------------------------------------------------*/
+h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+  }
+
+/*--------------------------------------------------------------------*/
+p {
+    font-size: 30px;
+  }
+
+/* Todas las imágenes deben ser del mismo tamañño que su contenedor*/
+img {
+    width: 100%;
+  }
+
+/* Remover el estilo a los elementos de una lista */
+li {
+    list-style-type: none;
+  }
+.info{
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.inicio{
+  text-align: center;
+  position:unset;
+}
+/*--------------------------------------------------------------------*/
+p {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+/* Centra el elemento y establece un ancho máximo y se asegura que los elementos puedan fluir através*/
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+  }
+
+/* Aplica el color de fondo, altura y "padding"*/
+.navbar {
+    background-color: rgb(255, 255, 0);
+    height: 70px;
+    padding: 0 30px;
+  }
+
+/* Establece el tamaño de la fuente (font size), reduce el peso de loa fuente (font-weight), agrega margen y alto de línea (line height) */
+.navbar h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+/*--------------------------------------------------------------------*/
+.navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+/*--------------------------------------------------------------------*/
+.navbar ul {
+    display: flex;
+  }
+
+/* Cambia el color de ambos enlaces a blanco, agrega padding entre si y margen también */
+.navbar a {
+    color: black;
+    padding: 9px;
+    margin: 0 10px;
+  }
+
+/* Al pasar el mouse sobre los enlaces el color del texto cambia a una sombra púrpura y un borde sólido se muestra debajo.*/  
+.navbar a:hover {
+    color: rgb(182, 20, 20) ;
+    border-bottom: 3px solid rgb(182, 20, 20) ;;
+  }
+
+/*--------------------------------------------------------------------*/
+.titulo {
+    color:black;
+  }
+
+/*--------------------------------------------------------------------*/
+.showcase {
+    height: 300px;
+    background-color:  rgb(255, 255, 0);
+  }
+
+/* Añade margen bajo el texto */
+.showcase p {
+    margin-bottom: 30px;
+  }
+  
+/* Añade una sombra bajo la imágen */
+.showcase img {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+  }
+  
+/* Añade algo de padding al contenido del formulario */
+.showcase-form {
+    padding-left: 7px;
+  }
+
+/* Alinear el contenido */
+.grid {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+/*--------------------------------------------------------------------*/
+.grid-item-1,
+.grid-item-2 {
+    position: unset;
+    top: 50px;
+  }
+
+/*--------------------------------------------------------------------*/
+.showcase input[type='email'] {
+    padding: 10px 70px 10px 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 6px;
+  }
+
+/*--------------------------------------------------------------------*/
+.btn {
+    border-radius: 6px;
+    padding: 12px 20px;
+    background:rgb(182, 20, 20) ;
+    border: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+/*--------------------------------------------------------------------*/
+.showcase-form {
+    margin: auto;
+  }
+
+/* Cambiar tipografía */
+.little-info {
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+  
+  }
+
+/* Centra el conetenedor, aplica un ancho máximo*/
+.lower-container {
+    margin: 120px auto;
+    padding: 0;
+    max-width: 1400px;
+  }
+
+.title2{
+  -webkit-text-stroke: 1px rgb(182, 20, 20);
+    color: rgb(255, 255, 0) ;;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+/* Apunta a todos los elementos h3 con clase CSS title */
+.title {
+    -webkit-text-stroke: 0.5px rgb(182, 20, 20);
+    color: rgb(255, 255, 0) ;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+/* Apunta a todos los parrafos con la clase CSS text */ 
+.text {
+    color: black;
+    font-size: 19px;
+    width: 100%;
+    padding: 10px;
+    margin: 0, 20px;
+    text-align: justify;
+  }
+
+/* Mostrar horizontalmente, poner un poco de espacio alrededor */
+.flex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+/* Agregar algo de padding alrededor del contenedor. Alinear el texto al centro */
+.stats {
+    padding: 45px 50px;
+    text-align: center;
+  }
+/* Aplicar margen y ancho */
+.stat {
+    margin: 0 30px;
+    text-align: center;
+    width: 800px;
+  }
+
+/*--------------------------------------------------------------------*/
+.stats .fa {
+    color: rgb(182, 20, 20);
+  }
+
+/*--------------------------------------------------------------------*/
+.testimonial {
+    color: black;
+    padding: 40px;
+  }
+  
+/* Envuelve la imagen dentro de una figura circular y define su altura para que tome todo el alto de su elemento padre */
+.testimonial img {
+    height: 100%;
+    clip-path: circle();
+}
+
+/* Alinea el texto al centro */
+.testimonial h3{
+  text-align: center;
+}
+
+/* Crear un grid de tres columnas equidistantes. Definir un espaciado de 40px entre ellas */
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+  
+/* Crear una tarjeta en blanco con sombreado alrededor */
+.card {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
+                 7px  7px 20px rgba(0, 0, 0, 0.2)
+  }
+
+/*--------------------------------------------------------------------*/
+.circle {
+    background-color: transparent;
+    border:5px solid rgb(182, 20, 20);
+    height:90px;
+    position: relative;
+    top: -30px;
+    left: 120px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:90px;
+}
+.nosotros{
+  color: rgb(182, 20, 20) ;
+}
+.nombre{
+  color:rgb(182, 20, 20) ;
+}
+.productos{
+  color: rgb(182, 20, 20);
+  background-color: rgb(255, 255, 0) ;
+}
+.circleempresa{
+  background-color: rgb(182, 20, 20);
+    border:5px solid rgb(182, 20, 20);
+    height:90px;
+    position: relative;
+    top: -30px;
+    left: 120px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:90px;
+}
+/* Añade relleno alrededor del pie de página también */
+footer {
+    background-color:rgb(255, 255, 0);
+    padding: 20px 10px;
+  }
+
+/* Establece todos los textos de los enlaces en blanco y pone el margen a la izquierda y a la derecha */  
+footer a {
+    color: rgb(0, 0, 0);
+    margin: 0 10px;
+  }
+
+/*--------------------------------------------------------------------*/
+footer a:hover {
+    color: rgb(182, 20, 20) ;
+    border-bottom: 2px solid rgb(182, 20, 20);
+  }
+
+/* ================================================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+
+.error{
+	color: rgb(182, 20, 20);
+  background-color: rgb(255, 255, 0);
+}
+
+.rellenar{
+	color: rgb(182, 20, 20);
+}
+
+.titform{
+  color: rgb(182, 20, 20);
+  text-align: center;
+  font-size: 80px;
+
+}
+.subtitulo {
+  -webkit-text-stroke: 0.5px rgb(182, 20, 20);
+    color: rgb(255, 255, 0);
+    text-align: center;
+    font-size: 25px;
+}
+
+
+main {
+	max-width: 800px;
+	width: 90%;
+	margin: auto;
+	padding: 40px;
+}
+
+.formulario {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;
+    color: white;
+}
+
+.formulario__label{
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.formulario__grupo-input {
+	position: relative;
+}
+
+
+
+#label1{
+	color: rgb(182, 20, 20);
+}
+#nombre{
+	background: rgb(182, 20, 20);
+}
+#nombre::placeholder { color: white; font-size: 13px; }
+
+#label2{
+	color: rgb(182, 20, 20);
+}
+#direccion{
+	background: rgb(182, 20, 20);
+}
+#direccion::placeholder { color: white; font-size: 13px; }
+
+#label3{
+	color: rgb(182, 20, 20);
+}
+#telefono{
+	background: rgb(182, 20, 20);
+}
+#telefono::placeholder { color: white; font-size: 13px; }
+
+#label4{
+	color: rgb(182, 20, 20);
+}
+#correo{
+	background: rgb(182, 20, 20);
+}
+#correo::placeholder { color: white; font-size: 13px; }
+
+#label5{
+  color: rgb(182, 20, 20);
+}
+
+.formulario__input{
+	width: 100%;
+	background: #ffffff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+.formulario__input:focus {
+	border: 3px solid rgb(255, 255, 0);
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(255, 255, 255, 0.4);
+}
+
+.formulario__input-error {
+	font-size: 10px;
+  color: rgb(182, 20, 20);;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formulario__input-error-activo {
+	display: block;
+}
+
+.formulario__validacion-estado {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+.formulario__checkbox {
+	margin-right: 10px;
+}
+
+.formulario__grupo-terminos, 
+.formulario__mensaje,
+.formulario__grupo-btn-enviar {
+	grid-column: span 2;
+}
+
+.formulario__mensaje {
+	height: 45px;
+	line-height: 45px;
+	background: rgb(255, 255, 0);
+  color: rgb(182, 20, 20);
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+
+.formulario__mensaje-activo {
+	display: block;
+}
+
+.formulario__mensaje p {
+	margin: 0;
+}
+
+.formulario__grupo-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formulario__btn {
+	height: 45px;
+	line-height: 45px;
+	width: 30%;
+	background: rgb(255, 255, 0);
+	color: rgb(182, 20, 20);;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+.formulario__btn:hover {
+	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+}
+
+.formulario__mensaje-exito {
+	font-size: 14px;
+	display: none;
+  background-color: #000000;
+}
+
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: rgb(255, 255, 0);
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: rgb(255, 255, 0);
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: rgb(255, 255, 0);
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid rgb(255, 255, 0);
+}
+
+
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 800px) {
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+
+	.formulario__grupo-terminos, 
+	.formulario__mensaje,
+	.formulario__grupo-btn-enviar {
+		grid-column: 1;
+	}
+
+	.formulario__btn {
+		width: 100%;
+	}
+}
+
+
+/*TABLETS Y PANTALLAS MÁS PEQUEÑAS*/
+@media(max-width: 768px) {
+    .grid,
+    .grid-3 {
+      grid-template-columns: 1fr;
+    }
+
+    /* Alinear todo el texto al centro. Esto moverá todo el texto, incluyendo el formulario al centro.*/
+    .showcase {
+        height: auto;
+        text-align: center;
+    }
+
+    /* Esto restablece el ancho del contendor de la imagen y agrega margen a la izquierda */ 
+    .image {
+        width: 600px;
+        margin-left: 80px;
+    }
+
+    /* Cambia las secciones de servicio de lado-a-lado para que cada una se posicione en una sóla linea. Centra el texto. */
+    .stats .flex {
+        flex-direction: column;
+    }
+    
+    /*--------------------------------------------------------------------*/
+  .stats {
+        text-align: center;
+    }
+
+    /* Asegura que cada sección en las estadísticas no exceda el ancho del elemento padre. */
+    .stat {
+        width: 100%;
+        padding-right: 80px;
+    }
+
+    /* Mueve el círculo al centro de la tarjeta  */
+    .circle {
+        background-color: transparent;
+        border:3px solid rgb(182, 20, 20);
+        height:90px;
+        position: relative;
+        top: -30px;
+        left: 270px;
+        border-radius:50%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        width:90px;
+    }
+}
+
+/* ================================================================= */
+
+/* DISPOSITIVOS MOVILES*/
+@media(max-width: 500px) {
+    .navbar {
+      height: 100px;
+    }
+    /* Cambia la alineación. El logo del título se queda en la parte superior, los enlaces de navegación ahora se muestran debajo*/
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    /* Cuando pasamos encima el ratón, retienen el texto blanco y cambia el borde a negro */
+    .navbar a:hover {
+        color: rgb(182, 20, 20);
+        border-bottom: 2px solid rgb(182, 20, 20);
+    }
+
+    /* Establecer el color púrpura para el fondo de los enlaces de navegación, redondear las esquinas de los bordes y darle algo de espaciado*/
+    .navbar ul {
+        background: rgb(182, 20, 20);
+        border-radius: 5px;
+        padding: 10px 0;
+    }
+
+    /* Alinear el texto al centro */
+    .showcase {
+        height: auto;
+        text-align: center;
+    }
+
+    /* Reducir el tamaño de la fuente */
+    .little-info {
+        font-size: 13px;
+    }
+
+    /* Reducir el ancho de la imágen */
+    .image {
+        width: 350px;
+        margin-left: 70px;
+    }
+
+    /*--------------------------------------------------------------------*/
+    .stat {
+        margin-bottom: 40px;
+    }
+
+    /* Mover el círculo una vez más */
+    .circle {
+        background-color: transparent;
+        border:3px solid rgb(182, 20, 20);
+        height:90px;
+        position: relative;
+        top: -30px;
+        left: 150px;
+        border-radius:50%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        width:90px;
+  }
+}
